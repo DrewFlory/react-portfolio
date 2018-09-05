@@ -9,22 +9,22 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'BenchNine', fontSize: '30px'}} to="/">My Portfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/resume" style= {{fontFamily: 'Didact Gothic', fontSize: '20px'}}>Resume</Link>
+                <Link to="/aboutme" style= {{fontFamily: 'Didact Gothic', fontSize: '20px'}}>About Me</Link>
+                <Link to="/projects" style= {{fontFamily: 'Didact Gothic', fontSize: '20px'}}>Projects</Link>
+                <Link to="/contact" style= {{fontFamily: 'Didact Gothic', fontSize: '20px'}}>Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
+            <Drawer title={<Link style={{ fontFamily: 'Didact Gothic', textDecoration: 'none', color: 'black', backgroundSize: '100%', scroll: 'none'}} to="/"><span>My Portfolio</span></Link>}>
+                <Navigation>
+                  <Link to="/resume" style = {{ fontFamily: 'Didact Gothic', fontSize: '18px', color: 'black'}}>Resume</Link>
+                  <Link to="/aboutme" style = {{ fontFamily: 'Didact Gothic', fontSize: '18px', color: 'black'}}>About Me</Link>
+                  <Link to="/projects" style = {{ fontFamily: 'Didact Gothic', fontSize: '18px', color: 'black'}}>Projects</Link>
+                  <Link to="/contact" style = {{ fontFamily: 'Didact Gothic', fontSize: '18px', color: 'black'}}>Contact</Link>
+                </Navigation>
+            </Drawer>
         <Content>
             <div className="page-content" />
             <Main/>
