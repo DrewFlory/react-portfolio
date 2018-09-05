@@ -167,3 +167,8 @@
 .social-links img:hover{
   animation: bounce 1s;
 }
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
