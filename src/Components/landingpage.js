@@ -21,7 +21,7 @@ class Landing extends Component {
 
                             <div className="social-links">
                                 {/* LinkedIn */}
-                                <a href="http://google.com" rel ="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/andrewflory/" rel ="noopener noreferrer" target="_blank">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAAC
                                 xjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAV/SURBVGhD7Vn7UxNXFOYP6OMv6uP3/trOlApFCkqBRCDykkSNBsIjIYICgkASCI+EIM9
                                 geCqCiCDgA+QNbbEqY6fQ6XQ6pdPO6f1udpeEhAplncVOzsw3s9/ec885397de/fuRoQtbGE7mhWcrvrQlGT/uFhl+0IJIHep2vGBUM7hDQL
@@ -44,7 +44,7 @@ class Landing extends Component {
                                 </a>
 
                                 {/* GitHub */}
-                                <a href="http://google.com" rel ="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/DrewFlory" rel ="noopener noreferrer" target="_blank">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
                                 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAsKSURBVGhD7VpZbFTXGaar2qpS+9D2oYuqqi9t1VaVmqpSpfShD33tIkVtpUrpQwXFM17B
                                 C5tnvIw9M/feMV4wHttzZzA2wQaDgRDCEoIJMTs1BmNsYouEYgIlTkvTlGDs0+87c87cO/Y4toNJ8sAv/RrP3HvP+b7z/+dfzvWyJzKHGFmt3
@@ -85,7 +85,7 @@ class Landing extends Component {
 
 
                                 {/* Instagram */}
-                                <a href="http://google.com" rel ="noopener noreferrer" target="_blank">
+                                <a href="https://www.instagram.com/drewcodez/" rel ="noopener noreferrer" target="_blank">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAAC
                                 xjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARvSURBVGhD7VnfbxRVGG2Mf4aJ/4A++GTirw3srmxnlu3uznRhty3b1rYLNKUmisX40P
                                 gEItDYVqwtLUQaY3zSWAtIRcWCgrZYjQ8+AFKgbqr0RxCSrm2v37n7Td2ws1ucnXU0zklOOrlz55zz7Xf3zs60woULFy5cuHDxf4bH43lwYz
